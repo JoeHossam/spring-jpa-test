@@ -8,7 +8,6 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
 
 import com.joehossam.springjpatest.entity.Course;
-import com.joehossam.springjpatest.entity.Teacher;
 
 @Repository
 public interface CourseRepository extends JpaRepository<Course, Long> {
